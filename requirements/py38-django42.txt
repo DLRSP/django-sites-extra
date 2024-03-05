@@ -34,9 +34,9 @@ cssselect2==0.7.0 \
     --hash=sha256:1ccd984dab89fc68955043aca4e1b03e0cf29cad9880f6e28e3ba7a74b14aa5a \
     --hash=sha256:fd23a65bfd444595913f02fc71f6b286c29261e354c41d722ca7a261a49b5969
     # via svglib
-django==4.2.10 \
-    --hash=sha256:a2d4c4d4ea0b6f0895acde632071aff6400bfc331228fc978b05452a0ff3e9f1 \
-    --hash=sha256:b1260ed381b10a11753c73444408e19869f3241fc45c985cd55a30177c789d13
+django==4.2.11 \
+    --hash=sha256:6e6ff3db2d8dd0c986b4eec8554c8e4f919b5c1ff62a5b4390c17aff2ed6e5c4 \
+    --hash=sha256:ddc24a0a8280a0430baa37aff11f28574720af05888c62b7cfe71d219f4599d3
     # via
     #   -r requirements/requirements.in
     #   django-filer
