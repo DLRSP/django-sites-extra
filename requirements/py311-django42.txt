@@ -24,9 +24,9 @@ django==4.2.20 \
     #   django-filer
     #   django-polymorphic
     #   easy-thumbnails
-django-filer==3.3.1 \
-    --hash=sha256:397c0b0f313371cc9e0cd92b3f1b0023b8dd213d7ebd038d6e289437df027bd0 \
-    --hash=sha256:aeaf7c665728a0e8c1a839612ccd993956006c6b683e002013b561b7da53b087
+django-filer==3.4.3 \
+    --hash=sha256:11b92238d148a3267e8d51ade1f8d0284b6c3cf6ef6db1013f309103bb30512a \
+    --hash=sha256:98c9bb1ed1925a06507c5ac87339557af21cd587934281978ea128087d4bd2fd
     # via -r requirements/requirements.in
 django-polymorphic==3.1.0 \
     --hash=sha256:08bc4f4f4a773a19b2deced5a56deddd1ef56ebd15207bf4052e2901c25ef57e \
@@ -264,13 +264,19 @@ sqlparse==0.5.3 \
     # via django
 svglib==1.5.1 \
     --hash=sha256:3ae765d3a9409ee60c0fb4d24c2deb6a80617aa927054f5bcd7fc98f0695e587
-    # via easy-thumbnails
+    # via
+    #   django-filer
+    #   easy-thumbnails
 tinycss2==1.4.0 \
     --hash=sha256:10c0972f6fc0fbee87c3edb76549357415e94548c1ae10ebccdea16fb404a9b7 \
     --hash=sha256:3a49cf47b7675da0b15d0c6e1df8df4ebd96e9394bb905a5775adb0d884c5289
     # via
     #   cssselect2
     #   svglib
+typing-extensions==4.15.0 \
+    --hash=sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466 \
+    --hash=sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548
+    # via asgiref
 webencodings==0.5.1 \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
