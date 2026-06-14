@@ -21,6 +21,9 @@ license-files = [
 ]
 keywords = [
     "django",
+    "sites",
+    "multi-site",
+    "django.contrib.sites",
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -69,6 +72,10 @@ linting = [
 
 [project.urls]
 Homepage = "https://github.com/DLRSP/django-sites-extra"
+Documentation = "https://github.com/DLRSP/django-site/"
+Repository = "https://github.com/DLRSP/django-sites-extra"
+Issues = "https://github.com/DLRSP/django-sites-extra/issues"
+Changelog = "https://github.com/DLRSP/django-sites-extra/blob/main/CHANGELOG.rst"
 
 [tool.setuptools]
 include-package-data = true
@@ -122,7 +129,6 @@ ignore = [
     "docs/community/third-party-packages.md",
     "docs/tutorial/customize.md",
 ]
-["AGENTS.md"]
 
 # Read by flake8 when flake8-pyproject is installed (extra `linting`).
 [tool.mypy]
