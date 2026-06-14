@@ -16,7 +16,7 @@ def info(request):
     context_cache = None
     try:
         context_cache = cache.get(cache_key)
-    except Exception as err:
+    except Exception:
         context_cache = None
 
     if context_cache is None:
