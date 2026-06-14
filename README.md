@@ -2,7 +2,7 @@
 
 [![PyPi status](https://img.shields.io/pypi/status/django-sites-extra.svg)](https://pypi.python.org/pypi/django-sites-extra)
 [![PyPi version](https://img.shields.io/pypi/v/django-sites-extra.svg)](https://pypi.python.org/pypi/django-sites-extra)
-[![PyPi python version](https://img.shields.io/pypi/pyversions/django-sites-extra.svg)](https://pypi.python.org/pypi/django-sites-extra)
+[![Python version](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12%20|%203.13-blue.svg)]()
 [![PyPi downloads](https://img.shields.io/pypi/dm/django-sites-extra.svg)](https://pypi.python.org/pypi/django-sites-extra)
 [![PyPi downloads](https://img.shields.io/pypi/dw/django-sites-extra.svg)](https://pypi.python.org/pypi/django-sites-extra)
 [![PyPi downloads](https://img.shields.io/pypi/dd/django-sites-extra.svg)](https://pypi.python.org/pypi/django-sites-extra)
